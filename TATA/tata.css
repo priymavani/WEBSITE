@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(209, 194, 194);
+}
+#logo{
+    width: 4vw;
+    height: 9vh;
+}
+#slide_next{
+    margin-top: 500px;
+    width: 110wh;
+    height: 500px;
+    position: relative;
+    
+}
+.slide{
+    max-width: 100%;
+    
+    max-height: 100%;
+    object-fit:cover;
+    position: absolute;
+    transition: 1s;
+}
+.nav{
+    
+    text-align: center;
+    margin-top: 300px;
+    background-color:red ;
+}
+
+.dropdownmenu ul ,.dropdownmenu li{
+    margin: 0;
+    padding: 0;
+
+}
+.dropdownmenu li{
+    float: left;
+    position: relative;
+    width: auto;
+}
+.dropdownmenu a {
+    background-color: purple;
+    color: white;
+    display: block;
+    font-weight: bold;
+    padding: 15px 55px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.25s ease;
+
+}
+
+.dropdownmenu li:hover a{
+    background: rgb(245, 144, 20);
+}
